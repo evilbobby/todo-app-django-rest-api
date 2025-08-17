@@ -3,7 +3,7 @@ version: "3"
 services:
   # APPLICATION
   api:
-    image: fantaso/djangorest-api
+    image: evilbobby/djangorest-api
     container_name: djangorest-api
     build:
       context: ./django_rest
