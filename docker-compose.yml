@@ -10,7 +10,7 @@ services:
       dockerfile: Dockerfile
     labels:
       /todo: "Django restframework to interact with the todo api"
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:16898
     volumes:
       - ./django_rest:/django-app
     ports:
