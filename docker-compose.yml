@@ -14,7 +14,7 @@ services:
     volumes:
       - ./django_rest:/django-app
     ports:
-      - "8000:8000"
+      - "16898:16898"
     depends_on:
       - db
 
